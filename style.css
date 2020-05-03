@@ -1,5 +1,5 @@
 .container {
-    background: url(../img/background.png) no-repeat;
+    background: url(./img/background.png) no-repeat;
     background-size: cover;
     display: flex;
     max-width: 1340px;
@@ -58,7 +58,7 @@
    .level:hover::before,
    .level:active::before,
    .level_active:before {
-    background: url(../img/rectangle.png) no-repeat;
+    background: url(./img/rectangle.png) no-repeat;
     background-size: cover;
     border: none;
     content: "";
@@ -125,7 +125,7 @@
    }
    
    .card-backside {
-    background: url(../img/card.png) no-repeat;
+    background: url(./img/card.png) no-repeat;
     backface-visibility: hidden;
     height: 100%;
     width: 100%;
@@ -134,7 +134,7 @@
    }
    
    .looser-card {
-    background: url(../img/game-over-card.png) no-repeat;
+    background: url(./img/game-over-card.png) no-repeat;
     backface-visibility: hidden;
     height: 341px;
     width: 218px;
@@ -144,7 +144,7 @@
    }
    
    .winner-card {
-    background: url(../img/card-with-bug.png) no-repeat;
+    background: url(./img/card-with-bug.png) no-repeat;
     backface-visibility: hidden;
     height: 341px;
     width: 218px;
